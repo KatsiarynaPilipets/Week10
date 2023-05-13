@@ -22,7 +22,7 @@ sliderLine.style.left = -offset +'px';
 document.querySelector('.slider-prev').addEventListener('click', function() {
     offset = offset - 550;
     if (offset < 0) {
-        offset = 1500;
+        offset = 1100;
     }
     sliderLine.style.left = -offset +'px';
     })
